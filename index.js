@@ -6,6 +6,7 @@
 
 
  mongoose.Promise = global.Promise;
+ //Conexion con mongodb
  mongoose.connect('mongodb://localhost:27017/curso', {useNewUrlParser:true})
  .then(() =>{
      console.log("Conexion establecida");
